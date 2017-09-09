@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "title": "Contoh Artikel 1",
+            "content": "<p>win32_get_last_control_message()</p>"
+        },
+        {
+            "title": "Contoh Artikel 2",
+            "content": "<p>win32_get_last_control_message()</p>"
+        },
+        {
+            "title": "Contoh Artikel 3",
+            "content": "<p>win32_get_last_control_message()</p>"
+        }
+    ]
+}

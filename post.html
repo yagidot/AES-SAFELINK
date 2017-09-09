@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Natsuki.xyz</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link href="/assets/css/vendors.min.css" rel="stylesheet" />
+	<link href="/assets/css/material.min.css" rel="stylesheet" />
+    <link href="/assets/css/styles.min.css" rel="stylesheet" />
+    <link href="/assets/css/custom.css" rel="stylesheet" />
+
+</head>
+<body id="post">
+	<nav class="z-depth-2">
+		<span class="title">Natsuki.xyz</span>
+		<div class="input-group-btn p-l-10">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Action <span class="caret"></span></button>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+            	<li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </div>
+	</nav>
+	<div id="wrapper-apps">
+		<div class="col-md-6 col-md-offset-3">
+		
+			<div id="ads">
+			
+			</div>
+			<div class="space"></div>
+			
+			<div class="info alert alert-danger" id="info">
+				<p>Scroll Kebawah</p>
+			</div>
+
+			<div id="button-skips">
+				<button class="btn btn-primary btn-lg disabled" id="nyan-skip-button" style="width:100%" onclick="button_handle(event)">LEWATI</button>
+			</div>
+			<div class="space"></div>
+			<div id="content">
+				<div class="card large z-depth-2">
+                  <div class="card-content" id="verify-works">
+                  <div id="verify">
+					<button type="button" class="btn btn-lg btn-round btn-primary" nyan-data="1" id="verify1" onclick="NyanLibs.get(event);">A<div class="ripple-wrapper"></div></button>
+					<button type="button" class="btn btn-lg btn-round btn-primary" nyan-data="2" id="verify2" onclick="NyanLibs.get(event);">C<div class="ripple-wrapper"></div></button>
+					<button type="button" class="btn btn-lg btn-round btn-primary" nyan-data="3" id="verify3" onclick="NyanLibs.get(event);">H<div class="ripple-wrapper"></div></button>	
+					<button type="button" class="btn btn-lg btn-round btn-primary" nyan-data="2" id="verify4" onclick="NyanLibs.get(event);">C<div class="ripple-wrapper"></div></button>
+					<button type="button" class="btn btn-lg btn-round btn-primary" nyan-data="3" id="verify5" onclick="NyanLibs.get(event);">H<div class="ripple-wrapper"></div></button>	
+				  </div>
+                   <span class="card-title"></span>
+				   <div class="space"></div>
+				   <div class="post-content row"></div>
+                    
+                   	
+                  </div>
+                </div>
+			</div> <!-- End Content -->
+			<div class="space"></div>
+			<div id="ads">
+			
+			</div>
+		</div>
+		<div class="col-md-12 col-sm-12 col-xs-12 footer">
+		<div class="col-md-8 col-md-offset-2 footer-text">
+			<h3 style="color:#f7f7f7">Natsuki <strong>SafeLink Generator</strong></h3>
+			<p>Natsuki SafeLink Generator adalah Website mengaman link untuk Website anda. Natsuki meng-encrypsi URL anda untuk menghindari pencurian URL oleh pihak lain.</p>
+			<div class="space"></div>
+			<div class="space"></div>
+			<p>Natsuki.xyz <i class="material-icons" style="color:#E91E63;">favorite</i> - Copyright &copy; 2017</p>
+		</div>
+	</div>
+		<div id="demo-show-toast" class="mdl-js-snackbar mdl-snackbar">
+	        <div class="mdl-snackbar__text"></div>
+	        <button class="mdl-snackbar__action" type="button"></button>
+	    </div>
+	</div>
+	
+    
+    <script charset="utf-8" src="/assets/dist/material.min.js"></script>
+    <script charset="utf-8" src="/assets/dist/vendors.min.js"></script>
+    <script charset="utf-8" src="/assets/dist/app.min.js"></script>
+    <script type="text/javascript">
+		var posts_no = 24;
+		var showpoststhumbs = false;
+		var readmorelink = false;
+		var showcommentslink = false;
+		var posts_date = false;
+		var post_summary = true;
+		var summary_chars = 70;
+	</script>
+    <script>
+
+    function randomposts(a) {
+	    window.jsonOut = a;
+	    var randIndex = Math.floor(Math.random() * (24 - 1 + 1));
+
+	    var title = a.feed.entry[randIndex].title.$t;
+	    var content = a.feed.entry[randIndex].content.$t;
+
+	    $('.card-title').text(title);
+	    $('.post-content').html(content);
+	
+    }
+
+    </script>
+    <style>#t0d1{position:fixed !important;position:absolute;top:3px;top:expression((t=document.documentElement.scrollTop?document.documentElement.scrollTop:document.body.scrollTop)+"px");left:3px;width:99%;height:103%;background-color:#fff;opacity:.95;filter:alpha(opacity=95);display:block;padding:20% 0}#t0d1 *{text-align:center;margin:0 auto;display:block;filter:none;font:bold 14px Verdana,Arial,sans-serif;text-decoration:none}#t0d1 ~ *{display:none}</style>
+    <div id="t0d1"><strong>Tolong Aktifkan Javascipt<br>Pantek !!!<a href="https://magic.id">[ ? ]</a></strong></div>
+    <script>window.document.getElementById("t0d1").parentNode.removeChild(window.document.getElementById("t0d1"));(function(f,k){function g(a){a&&t0d1.nextFunction()}var h=f.document,l=["i","u"];g.prototype={rand:function(a){return Math.floor(Math.random()*a)},getElementBy:function(a,c){return a?h.getElementById(a):h.getElementsByTagName(c)},getStyle:function(a){var c=h.defaultView;return c&&c.getComputedStyle?c.getComputedStyle(a,null):a.currentStyle},deferExecution:function(a){setTimeout(a,2E3)},insert:function(a,c){var e=h.createElement("strong"),d=h.body,b=d.childNodes.length,m=d.style,f=0,g=0;if("t0d1"==c){e.setAttribute("id",c);m.margin=m.padding=0;m.height="100%";for(b=this.rand(b);f<b;f++)1==d.childNodes[f].nodeType&&(g=Math.max(g,parseFloat(this.getStyle(d.childNodes[f]).zIndex)||0));g&&(e.style.zIndex=g+1);b++}e.innerHTML=a;d.insertBefore(e,d.childNodes[b-1])},displayMessage:function(a){var c=this;a="abisuq".charAt(c.rand(5));c.insert("<"+a+'><img src="https://1.bp.blogspot.com/-4iMj8lE8K7w/Vyz57GClIHI/AAAAAAAADDI/LkdTwv6o7OAfOMlx2k764u22OX7TgeiSACLcB/s1600/Adblock.png" height="50%" width="50%"> <a href="javascript:window.location.reload()">Reload</a>'+("</"+a+">"),"t0d1");h.addEventListener&&c.deferExecution(function(){c.getElementBy("t0d1").addEventListener("DOMNodeRemoved",function(){c.displayMessage()},!1)})},i:function(){for(var a="AD_300,ads_300x250,divadsensex,headerTopAd,skyscrapeAd,top_ad_game,topad_table,ad,ads,adsense".split(","),c=a.length,e="",d=this,b=0,f="abisuq".charAt(d.rand(5));b<c;b++)d.getElementBy(a[b])||(e+="<"+f+' id="'+a[b]+'"></'+f+">");d.insert(e);d.deferExecution(function(){for(b=0;b<c;b++)if(null==d.getElementBy(a[b]).offsetParent||"none"==d.getStyle(d.getElementBy(a[b])).display)return d.displayMessage("#"+a[b]+"("+b+")");d.nextFunction()})},u:function(){var a="-side-ad.,.openxtag.,/ads_160_,/adsadview.,/adsenze.,/advt2.,/dfp_ads/ad,/nativead/ad,/pb-ads/ad,/webadvert.".split(","),c=this,e=c.getElementBy(0,"img"),d,b;e[0]!==k&&e[0].src!==k&&(d=new Image,d.onload=function(){b=this;b.onload=null;b.onerror=function(){l=null;c.displayMessage(b.src)};b.src=e[0].src+"#"+a.join("")},d.src=e[0].src);c.deferExecution(function(){c.nextFunction()})},nextFunction:function(){var a=l[0];a!==k&&(l.shift(),this[a]())}};f.t0d1=t0d1=new g;h.addEventListener?f.addEventListener("load",g,!1):f.attachEvent("onload",g)})(window);</script>
+    <script type="text/javascript">
+  var message="Mohon Maaf Klik Kanan Telah Dinonaktifkan!";
+  function clickIE4(){
+    if(event.button==2){
+      alert(message);
+      return false;
+    }
+  }
+  function clickNS4(e){
+    if(document.layers||document.getElementById&&!document.all){
+      if(e.which==2||e.which==3){
+        alert(message);
+        return false;
+      }
+    }
+  }
+  if(document.layers){
+    document.captureEvents(Event.MOUSEDOWN);
+    document.onmousedown=clickNS4;
+  }else if(document.all&&!document.getElementById){
+    document.onmousedown=clickIE4;
+  }
+  document.oncontextmenu=new Function("alert(message);return false");
+</script><!--IE=internet explorer 4+ dan NS=netscape 4+0-->
+    <script src="http://blowkick.blogspot.com/feeds/posts/default?alt=json-in-script&max-results=24&callback=randomposts"></script>
+    <script charset="utf-8" src="/assets/dist/nyanlibs.js"></script>
+    <script charset="utf-8" src="/assets/dist/aes.js"></script>
+    <script charset="utf-8" src="/assets/dist/nyanlibs-security.js"></script>
+    <script charset="utf-8" src="/assets/dist/go.js"></script>
+
+    <script>
+    	$(document).ready(function() {
+    		NyanLibs.init({
+	    		works: '#verify-works',
+	    		info: '#info p',
+	    		items: ['#verify1', '#verify2', '#verify3', '#verify4', '#verify5'],
+	    		button: '#nyan-skip-button'
+	    	});
+    	});
+    </script>
+        
+</body>
+</html>
