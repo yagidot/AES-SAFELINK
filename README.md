@@ -2,6 +2,7 @@
 ![alt text](https://raw.githubusercontent.com/py7hon/SHA-SAFELINK/master/ss/gnome-shell-screenshot-MR9M6Y.png)
 SAFELINK yang Khusus dibuat dengan encrypt SHA dan susah untuk di bypass :)
 Cocok untuk yang mempunyai fanshare/blogdownload :)
+Demo : http://url.magic.id
 
 # Cara Install 
 Taro di hosting/vps :)
